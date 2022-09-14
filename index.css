@@ -1,0 +1,18 @@
+.main_container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    /* grid-template-rows: 3fr; */
+    background-color: blue;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div1 {
+    background-color: yellow;
+    /* grid-template-rows: auto; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
